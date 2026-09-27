@@ -1,0 +1,14 @@
+╰─❯ cat /etc/systemd/system/trilium.service                                                                                                                                                                                                                            󰍸 192.168.49.18 eth0@if8 ─╯
+[Unit]
+Description=Trilium Notes Server
+After=network.target
+
+[Service]
+Type=simple
+User=trilium
+WorkingDirectory=/opt/trilium
+ExecStart=/opt/trilium/trilium.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

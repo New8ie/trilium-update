@@ -1,0 +1,12 @@
+ bash upgrade.sh                                                                                                                                                                                                                                                    󰍸 192.168.49.18 eth0@if8 ─╯
+[2026-09-27 06:45:58 WIB] ============================================================
+[2026-09-27 06:45:58 WIB] TRILIUM NOTES UPGRADE
+[2026-09-27 06:45:58 WIB] ============================================================
+[2026-09-27 06:45:58 WIB] Production : /opt/trilium
+[2026-09-27 06:45:58 WIB] Backup     : /opt/trilium-backup/backup
+[2026-09-27 06:45:58 WIB] Source     : /opt/trilium-backup/upgrade-source
+[2026-09-27 06:45:58 WIB] Service    : trilium.service
+[2026-09-27 06:45:58 WIB] User       : trilium
+[2026-09-27 06:45:58 WIB] Rollback   : /opt/trilium-backup/rollback-27-09-2026_06-45-58_WIB
+[2026-09-27 06:45:58 WIB] Production structure : OK
+[2026-09-27 06:45:59 WIB] ERROR: Service trilium.service tidak ditemukan.
